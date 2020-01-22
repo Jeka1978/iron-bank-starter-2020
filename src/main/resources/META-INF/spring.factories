@@ -1,0 +1,7 @@
+
+
+org.springframework.boot.env.EnvironmentPostProcessor = com.nice.ironbankstarter2020.ProfileAutoDetectorEnvironmentPostProcessor
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.nice.ironbankstarter2020.IronBankStarterConf
+
+org.springframework.context.ApplicationContextInitializer = com.nice.ironbankstarter2020.ProfileSentinelApplicationContextInitializer
